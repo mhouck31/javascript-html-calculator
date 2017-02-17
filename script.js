@@ -8,5 +8,5 @@ function display(userInput){
 }
 function calculate(){
    var answer = eval(document.getElementById("display-bar").innerHTML);
-   document.getElementById("display-bar") .innerHTML += answer;
+   document.getElementById("display-bar") .innerHTML = answer;
 }
